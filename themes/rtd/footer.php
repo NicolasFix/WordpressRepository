@@ -90,6 +90,10 @@
 
             // initialization of sticky blocks
             $.HSCore.components.HSStickyBlock.init('.js-sticky-block');
+            // initialization of cubeportfolio
+            $.HSCore.components.HSCubeportfolio.init('.cbp');
+            // initialization of sticky blocks
+            $.HSCore.components.HSStickyBlock.init('.js-sticky-block');
         });
     </script>
    <?php wp_footer(); ?>
